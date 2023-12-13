@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Solgar - Female Multiple",
+        "image": "../IMG/vitamins/femaleMult_1.png",
+        "price": 120
+    },
+    {
+        "id": 2,
+        "name": "One Daily - Women Vitamins",
+        "image": "../IMG/vitamins/orange_2.jpg",
+        "price": 140
+    },
+    {
+        "id": 3,
+        "name": "BioTechUSA - Multivitamin for Women",
+        "image": "../IMG/vitamins/wh_vit_3.jpg",
+        "price": 220
+    },
+    {
+        "id": 4,
+        "name": "Centrum - Silver Women 200",
+        "image": "../IMG/vitamins/cuntr_4.jpg",
+        "price": 170
+    },
+    {
+        "id": 5,
+        "name": "Solgar - Magnesium B6",
+        "image": "../IMG/vitamins/magn_5.jpg",
+        "price": 180
+    },
+    {
+        "id": 6,
+        "name": "ON - OptiWomen",
+        "image": "../IMG/vitamins/opti_6.jpg",
+        "price": 170
+    }
+
+]

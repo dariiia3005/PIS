@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Каталог</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div>
+        <a class="navbar-brand" href="#">0 800 45 22 09</a>
+    </div>
+
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Головна</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link font-weight-bold" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="delivery.html">Оплата і доставка</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Контакти</a>
+        </li>
+        <li class="nav-item active" style="padding-left: 3px;"></li>
+          <img src="../IMG/icons8-person-30.svg" alt="My Happy SVG"/>
+        </li>
+      </ul>
+    </div>
+</nav>
+<div style="font-family: 'Playfair Display'; padding: 40px 0px 0px;">
+  <h1 class="text-center font-weight-bold" style="display: block; background-color: #434343; color:aliceblue; padding: 30px 0px;">
+    Каталог
+  </h1>
+  <hr width="100%" />
+    <select name="vitamins" onchange="location = this.value;" id="vitamins" class="form-select form-select-lg mb-3 w-75 for-select" aria-label=".form-select-lg example">
+      <option selected>Вітаміни</option>
+      <option value="vitamins.html">Вітаміни для жінок</option>
+      <option value="2">Вітаміни для дітей</option>
+      <option value="3">Вітаміни для зміцнення кісток</option>
+      <option value="4">Вітаміни для літніх людей</option>
+      <option value="5">Вітаміни для підвищення імунітету</option>
+      <option value="6">Вітаміни для покращення зору</option>
+      <option value="7">Вітаміни для серця та судин</option>
+      <option value="8">Вітаміни для суглобів</option>
+      <option value="9">Вітаміни для центральної нервової системи</option>
+      <option value="10">Вітаміни для чоловіків</option>
+      <option value="11">Вітаміни та добавки для підвищення енергії</option>
+      <option value="12">Загальнозміцнюючі, тонізуючі вітаміни</option>
+      <option value="13">Мінерали</option>
+      <option value="14">Моновітаміни</option>
+      <option value="15">Мультивітаміни</option>
+      <option value="16">Риб'ячий жир</option>
+    </select>
+  <hr width="100%" />
+  <select class="form-select form-select-lg mb-3 w-75 for-select" aria-label=".form-select-lg example">
+    <option selected>Гігієна</option>
+    <option value="1">Дезодоранти і антиперспіранти</option>
+    <option value="2">Догляд за ротовою порожниною</option>
+    <option value="3">Засоби жіночої гігієни</option>
+    <option value="4">Косметика для ванни і душу</option>
+    <option value="5">Засоби від комах</option>
+    <option value="6">Мило та антисептики</option>
+    <option value="7">Особиста гігієна</option>
+    <option value="8">Чоловічі засоби для гоління</option>
+  </select>
+  <hr width="100%" />
+  <select class="form-select form-select-lg mb-3 w-75 for-select" aria-label=".form-select-lg example">
+    <option selected>Медикаменти</option>
+    <option value="1">Діагностичні препарати</option>
+    <option value="2">Цукровий діабет</option>
+    <option value="3">Стоматологічні препарати</option>
+    <option value="4">Сечовидільна система</option>
+    <option value="5">Серцево-судинна система</option>
+    <option value="6">Санаторно-курортне лікування вдома</option>
+    <option value="7">Респіраторна система</option>
+    <option value="8">Реанімація, анестезія</option>
+    <option value="9">П'явка медична</option>
+    <option value="10">Протипаразитарні препарати</option>
+    <option value="11">Протиінфекційні препарати</option>
+    <option value="12">Препарати для травної системи</option>
+    <option value="13">Препарати для очей</option>
+    <option value="14">Препарати для лікування захворювань вуха</option>
+    <option value="15">Препарати для імунітету</option>
+    <option value="16">Препарати від ГРВІ та застуди</option>
+    <option value="17">Опорно-руховий апарат</option>
+    <option value="18">Нервова система</option>
+    <option value="19">Ліки від алергії</option>
+    <option value="20">Лікарські рослини та фіточаї</option>
+    <option value="21">Кровоносна система</option>
+    <option value="22">Знеболюючі засоби</option>
+    <option value="23">Здоров'я чоловіка</option>
+    <option value="24">Здоров'я жінки</option>
+    <option value="25">Дієта та схуднення</option>
+  </select>
+
+  <hr width="100%" style="margin-bottom: 200px;"/>
+  <hr width="100%"/>
+  <div class="text-center" style="background-color: #434343; color:aliceblue; padding: 20px 0px;">
+    [Стрийська 111]   [0 800 45 22 09]   [apteka.lviv@gmail.com]
+  </div>
+
+</div>
+
+</body>
+</html>

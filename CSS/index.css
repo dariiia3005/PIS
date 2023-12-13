@@ -1,0 +1,33 @@
+.buttons
+{
+    border-radius: 4px; 
+    background-color: #434343; 
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.nice-to-know{
+    background-color: #434343;
+    padding: 15px 0px 30px;
+    color: #cccccc;
+}
+
+.nice-to-know ul li {
+    list-style: square;
+}
+
+.for-select{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.for-lbl{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+

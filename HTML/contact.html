@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Контакти</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div>
+        <a class="navbar-brand" href="#">0 800 45 22 09</a>
+    </div>
+
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Головна</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="delivery.html">Оплата і доставка</a>
+        </li>
+        <li class="nav-item active font-weight-bold">
+          <a class="nav-link" href="contact.html">Контакти</a>
+        </li>
+        <li class="nav-item active" style="padding-left: 3px;"></li>
+          <img src="../IMG/icons8-person-30.svg" alt="My Happy SVG"/>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<div style="font-family: 'Playfair Display'; background-color: #434343; color: aliceblue; padding: 40px 0px;">
+  <h1 class="text-center font-weight-bold">
+    Контакти
+  </h1>
+</div>
+
+<div class="container" style="padding: 20px;">
+  <div class="row justify-content-center">
+      <div class="col-md-10">
+          <div class="row justify-content-center">
+              <div class="col-md-6">
+                  <h3 class="heading mb-4">Зв'язатися з нами можете тут!</h3>
+                  <p><img src="../IMG/pngwing.com.png" alt="Image" class="img-fluid" style="width: 400px; height: 400px;"></p>
+              </div>
+              <div class="col-md-6">
+                  <form class="mb-5" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
+                      <div class="row">
+                          <div class="col-md-12 form-group">
+                              <input type="text" class="form-control" name="name" id="name" placeholder="Ваше ім'я">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12 form-group">
+                              <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12 form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12 form-group">
+                          <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Ваше повідомлення"></textarea>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-12">
+                              <input type="submit" value="Надіслати" class="btn rounded-0 py-2 px-4" style="background-color: #434343; color: azure;">
+                              <span class="submitting"></span>
+                          </div>
+                      </div>
+                  </form>
+                  <div id="form-message-warning mt-4"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+  </div>
+</body>
+</html>
